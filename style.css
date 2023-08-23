@@ -42,11 +42,11 @@ body * {
 }
 
 #container {
-  width: 360px; /* Width: largura da caixa */
+  width: 100%; /* Width: largura da caixa */
   /*height: 712px; /* height: altura da caixa*/
   /*border: 1px solid red;  border: local onde marca a extensao da caixa*/
   /*margin: auto;   margin: serve para dar margen para caixa ou imagem*/
-
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
